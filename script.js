@@ -25,7 +25,7 @@ document.getElementById('age').innerHTML = cyear - num;
 
 if (confirm('Do you want to use a custom profile picture?')){
     let html5 = prompt('Please enter the file name of the picture. (Ex: wow.jpg )');
-    document.getElementById('ppic').innerHTML = html5;
+    document.getElementById('ppic').src = html5;
     alert('Profile picture has been updated.');
 }
 else {
